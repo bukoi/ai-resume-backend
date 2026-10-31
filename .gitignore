@@ -1,52 +1,52 @@
-exports/
-templates/
 
-.venv/
-venv/
-env/
-
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
 
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
 
-
+# Python build and distribution
 build/
 dist/
 *.egg-info/
 .eggs/
 
-
+# Testing and coverage
 .pytest_cache/
 .coverage
 htmlcov/
 .tox/
-.nox/
 
-
+# Type checking and linting
 .mypy_cache/
 .ruff_cache/
 .pyright/
 
+# FastAPI / application logs
 *.log
 logs/
 
+# IDE and editor files
 .vscode/
 .idea/
-*.swp
-*.swo
 
+# OS-generated files
 .DS_Store
 Thumbs.db
 Desktop.ini
 
+# Jupyter Notebook
+.ipynb_checkpoints/
 
+# Temporary files
 *.tmp
 *.bak
-
-
-*.db
-*.sqlite3
